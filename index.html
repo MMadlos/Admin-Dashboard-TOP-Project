@@ -6,54 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard Project (TOP)</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/dd30b8794e.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e16da9793f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="dashboard_container">
         <div id="sidebar">
             <div class="sidebar_title">
-                <div class="logo"></div>
+                <i class="fa-solid fa-table-columns"></i>
                 <h1>Dashboard</h1>
             </div>
             <div class="sidebar_nav">
-                <div class="primary_menu">
-                    <ul>
-                        <li>
-                            <i class="fa-solid fa-circle"></i>
-                            <p>Home</p></li>
-                        <li>
-                            <i class="fa-solid fa-circle"></i>
-                            <p>Profile</p></li>
-                        <li>
-                            <i class="fa-solid fa-circle"></i>
-                            <p>Messages</p></li>
-                        <li>
-                            <i class="fa-solid fa-circle"></i>
-                            <p>History</p></li>
-                        <li>
-                            <i class="fa-solid fa-circle"></i>
-                            <p>Tasks</p></li>
-                        <li>
-                            <i class="fa-solid fa-circle"></i>
-                            <p>Communities</p></li>
-                    </ul>
+                <ul class="primary_menu">
+                    <li>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p>Home</p></li>
+                    <li>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p>Profile</p></li>
+                    <li>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p>Messages</p></li>
+                    <li>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p>History</p></li>
+                    <li>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p>Tasks</p></li>
+                    <li>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p>Communities</p></li>
+                </ul>
+                <ul class="secondary_menu">
+                    <li>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p>Settings</p></li>
+                    <li>
+                        
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p>Support</p></li>
+                    <li>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p>Privacy</p></li>
+                </ul>
+            </div>
+        </div>
+        <div id="header">
+            <div id="top_section">
+                <div id="search_container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="search_bar"></div>
                 </div>
-                <div class="secondary_menu">
-                    <ul>
-                        <li>
-                            <i class="fa-solid fa-circle"></i>
-                            <p>Settings</p></li>
-                        <li>
-                            <i class="fa-solid fa-circle"></i>
-                            <p>Support</p></li>
-                        <li>
-                            <i class="fa-solid fa-circle"></i>
-                            <p>Privacy</p></li>
-                    </ul>
+                <div id="settings_container">
+                    <i class="fa-regular fa-bell"></i>
+                    <div class="image"></div>
+                    <p id="userAccount">Morgan Oakley</p>
+                </div>
+            </div>
+            <div id="bottom_section">
+                <div class="user_container">
+                    <div class="img_xl"></div>
+                    <div class="user_text_container">
+                        <p class="title_greetings">Hi there,</p>
+                        <p class="title_user_name">Morgan Oakly (@morgan)</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="button_container">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
                 </div>
             </div>
         </div>
-        <div id="header"></div>
         <main id="main_content"></main>
     </div>
 </body>
