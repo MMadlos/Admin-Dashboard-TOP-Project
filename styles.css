@@ -163,3 +163,57 @@ button {
     margin-left: 24px;
     background-color: lightseagreen;
 }
+
+/* MAIN CONTENT */
+
+/* Project section */
+#main_content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 16px;
+
+    padding: 32px 24px;
+    background-color: lightblue;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+#projects_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.project_card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px 40px;
+
+    display: grid;
+    gap: 16px;
+}
+
+#icon_card_container {
+    text-align: right;
+}
+
+#icon_card_container > i {
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+/* Side section */
+
+#side_section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 48px;
+}
+
+.side_card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px 40px;
+}
